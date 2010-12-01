@@ -28,7 +28,7 @@ public class P4TestBoard extends JUnitStories {
  
     @Override
     public List<CandidateSteps> candidateSteps() {
-        return new InstanceStepsFactory(configuration(), new P4FTestBoardStep()).createCandidateSteps();
+        return new InstanceStepsFactory(configuration(), new P4TestBoardStep()).createCandidateSteps();
     }
 
 	@Override

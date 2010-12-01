@@ -22,7 +22,7 @@ public class P1FTestBoardStep {
 		board = new Board(size,  initialState );
 	}
 	
-	@When("we play a round")
+	@When("we play the first round")
 	public void whenPlayARound() {
 		board.update();
 	}
